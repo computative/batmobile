@@ -1,0 +1,5 @@
+from numpy import *
+
+data = loadtxt("data_0.500000_187.txt")
+
+print data
