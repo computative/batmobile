@@ -1,0 +1,16 @@
+from numpy import *
+from matplotlib.pyplot import *
+
+nums = ["2.000000_111","0.500000_78","1.000000_622","1.500000_351"]
+A = [2,.5,1,1.5]
+for n, a in zip(nums,A):
+    data = loadtxt("../resources/data_" + str(n)  + ".txt")
+    data = data.reshape( data.shape[0]*data.shape[1] )
+    pmd, bins = histogram(data, density=True, bins=linspace(0.01,1000,10000))
+    plot(bins[:-1], pmd, label=str(a))
+    plot(bins[:-1], bins[:-1]**(-a-1) )
+xlim(0.001,1000)
+ylim(1e-8,1)
+legend()
+yscale("log"); xscale("log")
+show()

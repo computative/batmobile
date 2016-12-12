@@ -1,0 +1,9 @@
+from numpy import *
+from matplotlib.pyplot import *
+
+data = loadtxt("../resources/data_194.txt")
+data = data.reshape(data.shape[0]*data.shape[1])
+l = 1/(sd(x))
+hist( data ,bins=arange(min(data), max(data) + 0.05, 0.05), normed=True)
+xlim(0,8)
+show()
