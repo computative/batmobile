@@ -1,0 +1,5 @@
+Running
+
+$ python ../code/moderate.py
+
+Produces fig1.png and fig1.pgf in this directory

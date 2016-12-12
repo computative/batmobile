@@ -1,0 +1,5 @@
+Running
+
+$ python ../code/moderate_gamma.py
+
+Produces fig2.png and fig2.pgf in this directory

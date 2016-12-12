@@ -1,0 +1,10 @@
+Running
+
+$ python ../code/distr_beta.py
+
+Print
+1.5 1
+2.1 1.1
+3 0.6
+
+and writes fig4.pgf and fig4.png to this directory.

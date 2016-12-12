@@ -1,0 +1,5 @@
+Running
+
+$ python ../code/distr_alpha.py
+
+Produces fig3.png and fig3.pgf in this directory

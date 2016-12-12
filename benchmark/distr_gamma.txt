@@ -1,0 +1,5 @@
+Running
+
+$ python ../code/distr_gamma.py
+
+Produces fig5.png and fig5.pgf in this directory
